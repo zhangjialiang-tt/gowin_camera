@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="MBGA100P" speed="7" partNumber="GW1NR-LV9MG100PC7/I6"/>
+    <FileList>
+        <File path="D:/Software/Gowin/Gowin_V1.9.9.03_x64/Gowin/Gowin_V1.9.9.03_x64/IDE/ipcore/FIFO_HS/data/fifo_hs.v" type="verilog"/>
+        <File path="D:/Software/Gowin/Gowin_V1.9.9.03_x64/Gowin/Gowin_V1.9.9.03_x64/IDE/ipcore/FIFO_HS/data/fifo_hs_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="D:/Software/Gowin/Gowin_V1.9.9.03_x64/Gowin/Gowin_V1.9.9.03_x64/IDE/ipcore/FIFO_HS/data"/>
+        <Option type="include_path" value="E:/PRJ/256Demo/GOWIN/256Demo_FPGA_V0.0.44.20250307_Baseline/256Demo/ip/debug_fifo/temp/FIFOHS"/>
+        <Option type="output_file" value="debug_fifo.vg"/>
+        <Option type="output_template" value="debug_fifo_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

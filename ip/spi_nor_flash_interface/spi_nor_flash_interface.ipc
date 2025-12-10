@@ -1,0 +1,17 @@
+[General]
+ipc_version=4
+file=spi_nor_flash_interface
+module=SPI_Nor_Flash_Interface_Top
+target_device=gw2anr18c-001
+type=spi_nor_flash_interface
+version=1.0
+
+[Config]
+DISABLE_IO_INSERTION=true
+LANG=0
+MEMORY_MAPPED_READ_SUPPORT=false
+OPERATION_MODE=Standard
+RX_FIFO_DEPTH=64
+SPI_CLOCK_DIVIDER=0
+Synthesis_tool=GowinSynthesis
+TX_FIFO_DEPTH=64

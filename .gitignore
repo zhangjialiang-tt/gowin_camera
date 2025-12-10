@@ -1,0 +1,19 @@
+# *.d
+# *.o
+# *.asm
+# *.elf
+# *.map
+# *.s
+# *.md5
+# *.dtb
+# *.vscode
+# ZC23A/GW_PHONE_ARM/project/mdk_v5/Objects/*
+# ZC23A/GW_PHONE_FPGA/impl/*
+# !ZC23A/GW_PHONE_FPGA/impl/pnr
+# ZC23A/GW_PHONE_FPGA/impl/pnr/*
+# !ZC23A/GW_PHONE_FPGA/impl/pnr/*.fs
+# !ZC23A/GW_PHONE_FPGA/impl/pnr/*.bin
+# *.rao
+*.tar.gz
+build/
+impl/

@@ -1,0 +1,45 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v'
+Analyzing included file '**'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+Back to file '**'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+Undeclared symbol '**', assumed default net type '**'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+Analyzing Verilog file 'D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v'
+Analyzing included file 'fifo_define.v'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v":1)
+Back to file 'D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v":1)
+Analyzing included file 'D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\static_macro_define.v'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v":2)
+Back to file 'D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v":2)
+Analyzing included file 'fifo_parameter.v'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v":57)
+Back to file 'D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v":57)
+Compiling module 'fifo_iap2_tx'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs_top.v":4)
+Compiling module '**'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+Extracting RAM for identifier '**'("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+NOTE  (EX0101) : Current top module is "fifo_iap2_tx"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+WARN  (AG0100) : Find logical loop signal : "fifo_inst/wfull_val1_s3"("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+WARN  (AG0100) : Find logical loop signal : "fifo_inst/wfull_val1_s6"("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+WARN  (AG0100) : Find logical loop signal : "fifo_inst/wfull_val1_s3"("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "fifo_inst/Full_s3"("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+WARN  (AG0100) : Find logical loop signal : "fifo_inst/Full_s6"("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+WARN  (AG0100) : Find logical loop signal : "fifo_inst/Full_s3"("D:\Software\Gowin\Gowin_V1.9.9.03_x64\Gowin\Gowin_V1.9.9.03_x64\IDE\ipcore\FIFO_HS\data\fifo_hs.v":15293)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "E:\PRJ\256Demo\GOWIN\256Demo_FPGA_V0.0.24.20250303_Baseline\256Demo\ip\fifo_iap2_tx\temp\FIFOHS\fifo_iap2_tx.vg" completed
+Generate template file "E:\PRJ\256Demo\GOWIN\256Demo_FPGA_V0.0.24.20250303_Baseline\256Demo\ip\fifo_iap2_tx\temp\FIFOHS\fifo_iap2_tx_tmp.v" completed
+[100%] Generate report file "E:\PRJ\256Demo\GOWIN\256Demo_FPGA_V0.0.24.20250303_Baseline\256Demo\ip\fifo_iap2_tx\temp\FIFOHS\fifo_iap2_tx_syn.rpt.html" completed
+GowinSynthesis finish

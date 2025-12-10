@@ -1,0 +1,7 @@
+.kiro/
+build/
+docs/
+*.elf
+*.bin
+*.txt
+*.md

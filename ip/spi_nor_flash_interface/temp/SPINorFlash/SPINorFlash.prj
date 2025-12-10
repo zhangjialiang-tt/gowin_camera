@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2ANR-18C" package="QFN88" speed="8" partNumber="GW2ANR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="C:/Gowin/Gowin_V1.9.11.03_x64/IDE/ipcore/SPINorFlash/data/spi_nor_flash_interface_top.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.11.03_x64/IDE/ipcore/SPINorFlash/data/spinorflash.vp" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="C:/Gowin/Gowin_V1.9.11.03_x64/IDE/ipcore/SPINorFlash/data"/>
+        <Option type="include_path" value="E:/project/boshi/prj/prj/GW_PHONE_FPGA02_8_23a_7/GW_PHONE_FPGA/ip/spi_nor_flash_interface/temp/SPINorFlash"/>
+        <Option type="output_file" value="spi_nor_flash_interface.vg"/>
+        <Option type="output_template" value="spi_nor_flash_interface_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="SPI_Nor_Flash_Interface_Top"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

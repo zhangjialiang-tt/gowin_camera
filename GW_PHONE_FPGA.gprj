@@ -1,0 +1,149 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2ANR-18C" pn="GW2ANR-LV18QN88C8/I7">gw2anr18c-001</Device>
+    <FileList>
+        <File path="ip/SDRAM_controller/SDRAM_controller.v" type="file.verilog" enable="1"/>
+        <File path="ip/clkdiv2/gowin_clkdiv/clkdiv2.v" type="file.verilog" enable="1"/>
+        <File path="ip/clkdiv4/clkdiv4.v" type="file.verilog" enable="1"/>
+        <File path="ip/debug_fifo/debug_fifo.v" type="file.verilog" enable="1"/>
+        <File path="ip/dpb_mfi/dpb_mfi.v" type="file.verilog" enable="1"/>
+        <File path="ip/fifo_iap2_tx/fifo_iap2_tx.v" type="file.verilog" enable="1"/>
+        <File path="ip/fifo_top/fifo_top.v" type="file.verilog" enable="1"/>
+        <File path="ip/fifo_video_tx/fifo_video_tx.v" type="file.verilog" enable="1"/>
+        <File path="ip/flash_fifo/flash_fifo.v" type="file.verilog" enable="1"/>
+        <File path="ip/gowin_empu_m1/gowin_empu_m1.v" type="file.verilog" enable="1"/>
+        <File path="ip/gowin_prom/gowin_prom.v" type="file.verilog" enable="1"/>
+        <File path="ip/iic_master/iic_master.v" type="file.verilog" enable="1"/>
+        <File path="ip/iic_master/iic_master_mfi.v" type="file.verilog" enable="1"/>
+        <File path="ip/mult_signed_nuc/mult_signed_nuc.v" type="file.verilog" enable="1"/>
+        <File path="ip/sdram_pll/sdram_pll.v" type="file.verilog" enable="1"/>
+        <File path="ip/sdram_rd_fifo/sdram_rd_fifo.v" type="file.verilog" enable="1"/>
+        <File path="ip/sdram_wr_fifo/sdram_wr_fifo.v" type="file.verilog" enable="1"/>
+        <File path="ip/spi_nor_flash_interface/spi_nor_flash_interface.v" type="file.verilog" enable="1"/>
+        <File path="ip/uart/uart_transfer.v" type="file.verilog" enable="1"/>
+        <File path="ip/usb20phy/usb2_0_softphy_src_encryption.v" type="file.verilog" enable="1"/>
+        <File path="ip/usb20phy/usb2_0_softphy_top.v" type="file.verilog" enable="1"/>
+        <File path="ip/usb2_0_softphy/usb2_0_softphy.v" type="file.verilog" enable="0"/>
+        <File path="ip/usb_device_controller/usb_device_controller.v" type="file.verilog" enable="0"/>
+        <File path="ip/usb_device_controller01/usb_device_controller_src_encryption.v" type="file.verilog" enable="1"/>
+        <File path="ip/usb_device_controller01/usb_device_controller_top.v" type="file.verilog" enable="1"/>
+        <File path="ip/usb_pll/usb_pll.v" type="file.verilog" enable="1"/>
+        <File path="ip/usb_retrans_ram/usb_retrans_ram.v" type="file.verilog" enable="1"/>
+        <File path="ip/verilog-wishbone/wb_mux_2.v" type="file.verilog" enable="1"/>
+        <File path="ip/yuv420_fifo_2/yuv420_fifo_2.v" type="file.verilog" enable="1"/>
+        <File path="src/apb/apb_irq_arb.v" type="file.verilog" enable="1"/>
+        <File path="src/apb/apb_reg_define.v" type="file.verilog" enable="1"/>
+        <File path="src/apb/apb_top.v" type="file.verilog" enable="1"/>
+        <File path="src/boot_timing/gen_reset/gen_reset.v" type="file.verilog" enable="1"/>
+        <File path="src/common/DC_FIFO.v" type="file.verilog" enable="1"/>
+        <File path="src/common/capture_edge.v" type="file.verilog" enable="1"/>
+        <File path="src/common/gen_test.v" type="file.verilog" enable="1"/>
+        <File path="src/common/signal_delay.v" type="file.verilog" enable="1"/>
+        <File path="src/flash/ahb_spi_flash_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/flash/ahb_spi_flash_drv.v" type="file.verilog" enable="1"/>
+        <File path="src/flash/ahb_spi_flash_top.v" type="file.verilog" enable="1"/>
+        <File path="src/flash/flash_top.v" type="file.verilog" enable="1"/>
+        <File path="src/flash/para_load.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_apb/i2c_apb_top.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_apb/i2c_reg_buff.v" type="file.verilog" enable="1"/>
+        <File path="src/mfi/iap2_parsing.v" type="file.verilog" enable="1"/>
+        <File path="src/mfi/mfi_top.v" type="file.verilog" enable="1"/>
+        <File path="src/mfi/wb_usb_bridge.v" type="file.verilog" enable="1"/>
+        <File path="src/nonuniform_top/calc_b_v10.v" type="file.verilog" enable="1"/>
+        <File path="src/nonuniform_top/data_mem_wr_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/nonuniform_top/nonuniform_top_v0.v" type="file.verilog" enable="1"/>
+        <File path="src/nonuniform_top/revise_v10.v" type="file.verilog" enable="1"/>
+        <File path="src/nonuniform_top/unsigned_divider.v" type="file.verilog" enable="1"/>
+        <File path="src/param_parse/param_parse.v" type="file.verilog" enable="1"/>
+        <File path="src/peripherals/temp_rd_top.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_port_arb/defin_sdram_port.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_port_arb/sdram_port_arb.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_port_arb/sdram_rd_port.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_port_arb/sdram_rd_tunnel_mux.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_port_arb/sdram_rw_master.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_port_arb/sdram_wr_port.v" type="file.verilog" enable="1"/>
+        <File path="src/sdram_port_arb/sdram_wr_tunnel_mux.v" type="file.verilog" enable="1"/>
+        <File path="src/sensor_data_parse/sensor_data_parse.v" type="file.verilog" enable="1"/>
+        <File path="src/sys_xbus_reg/sys_xbus_reg.v" type="file.verilog" enable="1"/>
+        <File path="src/sys_xbus_reg/xbus_to_apb_bridge.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/tv2yuv422/tv2yuv422.v" type="file.verilog" enable="1"/>
+        <File path="src/usb/temperature_ddr_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/usb/usb_cmd_feedback.v" type="file.verilog" enable="1"/>
+        <File path="src/usb/usb_cmd_parsing.v" type="file.verilog" enable="1"/>
+        <File path="src/usb/usb_descriptor.v" type="file.verilog" enable="1"/>
+        <File path="src/usb/usb_top.v" type="file.verilog" enable="1"/>
+        <File path="src/usb/usb_tx_ctrl_v10.v" type="file.verilog" enable="1"/>
+        <File path="src/video_display/frame_head_generate.v" type="file.verilog" enable="1"/>
+        <File path="src/video_display/ir_data_get.v" type="file.verilog" enable="1"/>
+        <File path="src/video_display/param_line.v" type="file.verilog" enable="1"/>
+        <File path="src/video_display/video_display.v" type="file.verilog" enable="1"/>
+        <File path="src/yuv420_nv12/yuv422_to_nv12_converter.v" type="file.verilog" enable="1"/>
+        <File path="ip/neorv32/core/neorv32_application_image.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_boot_rom.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_bootloader_image.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_bus.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cache.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cfs.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_clint.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_alu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_control.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_counters.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_cp_bitmanip.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_cp_cfu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_cp_cond.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_cp_crypto.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_cp_fpu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_cp_muldiv.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_cp_shifter.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_decompressor.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_frontend.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_hwtrig.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_lsu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_pmp.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_cpu_regfile.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_debug_auth.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_debug_dm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_debug_dtm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_dma.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_dmem.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_gpio.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_gptmr.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_imem.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_neoled.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_onewire.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_package.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_prim.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_pwm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_sdi.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_slink.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_spi.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_sys.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_sysinfo.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_top.vhd" type="file.vhdl" enable="1"/>
+        <File path="ip/neorv32/core/neorv32_tracer.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_trng.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_twd.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_twi.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_uart.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_wdt.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="ip/neorv32/core/neorv32_xbus.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="GW_PHONE_FPGA.cst" type="file.cst" enable="1"/>
+        <File path="GW_PHONE_FPGA.sdc" type="file.sdc" enable="1"/>
+        <File path="src/GW_PHONE_FPGA01.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA04.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA05.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA06.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA08.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA09.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA10.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA_02.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA_03.rao" type="file.gao" enable="0"/>
+        <File path="src/GW_PHONE_FPGA_FLASH01.rao" type="file.gao" enable="0"/>
+        <File path="src/cmd.rao" type="file.gao" enable="0"/>
+    </FileList>
+</Project>

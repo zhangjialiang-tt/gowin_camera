@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="sdram_wr_fifo" Register="114" Alu="29" Lut="106" Bsram="1" Ssram="3"/>

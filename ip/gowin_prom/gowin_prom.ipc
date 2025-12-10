@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=gowin_prom
+module=Gowin_pROM
+target_device=gw2anr18c-001
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=512
+LANG=0
+MEM_FILE=init_512.mi
+READ=0
+RESET_MODE=false
+WIDTH=16

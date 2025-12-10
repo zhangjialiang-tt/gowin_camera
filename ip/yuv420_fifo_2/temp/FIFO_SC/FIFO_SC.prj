@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2ANR-18C" package="QFN88" speed="8" partNumber="GW2ANR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="E:/100-Working/102-Working-Prj/zc23ab/temp/GW_PHONE_FPGA02_8_23b_6/GW_PHONE_FPGA/ip/yuv420_fifo_2/temp/FIFO_SC/fifo_sc_define.v" type="verilog"/>
+        <File path="E:/100-Working/102-Working-Prj/zc23ab/temp/GW_PHONE_FPGA02_8_23b_6/GW_PHONE_FPGA/ip/yuv420_fifo_2/temp/FIFO_SC/fifo_sc_parameter.v" type="verilog"/>
+        <File path="D:/Software/Gowin/Gowin_V1.9.11.03_x64/IDE/ipcore/FIFO_SC/data/edc_sc.v" type="verilog"/>
+        <File path="D:/Software/Gowin/Gowin_V1.9.11.03_x64/IDE/ipcore/FIFO_SC/data/fifo_sc.v" type="verilog"/>
+        <File path="D:/Software/Gowin/Gowin_V1.9.11.03_x64/IDE/ipcore/FIFO_SC/data/fifo_sc_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="output_file" value="yuv420_fifo_2.vg"/>
+        <Option type="output_template" value="yuv420_fifo_2_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

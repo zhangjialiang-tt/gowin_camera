@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2ANR-18C" package="QFN88" speed="8" partNumber="GW2ANR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="E:/software/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/FIFO_HS/data/fifo_hs.v" type="verilog"/>
+        <File path="E:/software/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/FIFO_HS/data/fifo_hs_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="E:/software/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/FIFO_HS/data"/>
+        <Option type="include_path" value="F:/project/GW_PHONE_FPGA/GW_PHONE_FPGA/ip/flash_fifo/temp/FIFOHS"/>
+        <Option type="output_file" value="flash_fifo.vg"/>
+        <Option type="output_template" value="flash_fifo_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

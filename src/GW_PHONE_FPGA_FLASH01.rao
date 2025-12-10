@@ -1,0 +1,157 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_display" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" implementation="0" trigger_pos="0" module_name="top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Signal capture_enable="true">flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data_vld</Signal>
+            <Bus capture_enable="true" name="flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[15:0]">
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[15]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[14]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[13]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[12]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[11]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[10]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[9]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[8]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[7]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[6]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[5]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[4]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[3]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[2]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[1]</Signal>
+                <Signal>flash_top_inst/ahb_spi_flash_top_inst/o_flash_rd_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/fifo_wr_en</Signal>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[15:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[15]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[14]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[13]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[12]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[11]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[10]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[9]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[8]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[7]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[6]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[5]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[4]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[3]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/data_dly[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/o_ddr_rd_en</Signal>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[15:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[15]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[14]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[13]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[12]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[11]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[10]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[9]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[8]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[7]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[6]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[5]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[4]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[3]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/i_flash_rd_data_vld</Signal>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/o_ddr_rd_start</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>flash_top_inst/ahb_spi_flash_top_inst/flash_start_en</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/fifo_full</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Bus restorename="flash_top_inst/lens_cnt[31:0]">
+                        <Signal>flash_top_inst/lens_cnt[31]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[30]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[29]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[28]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[27]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[26]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[25]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[24]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[23]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[22]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[21]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[20]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[19]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[18]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[17]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[16]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[15]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[14]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[13]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[12]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[11]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[10]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[9]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[8]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[7]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[6]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[5]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[4]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[3]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[2]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[1]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3">
+                <SignalList>
+                    <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_load_en_ndge</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="1"/>
+            <MatchUnit index="2" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="00000000000000000000000000000000" value1="00000000000000000000000000000000" trigger="2"/>
+            <MatchUnit index="3" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="3"/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0&amp;M1&amp;M2&amp;M3</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1101110011010001</GAO_ID>
+</GAO_CONFIG>

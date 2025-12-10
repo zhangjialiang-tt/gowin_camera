@@ -1,0 +1,149 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="usb_top_inst/i_pclk" trig_type="0" storage_depth="64" window_num="1" capture_amount="64" implementation="0" trigger_pos="32" module_name="top" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/state_c[3:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/state_c[3]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/state_c[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/state_c[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/state_c[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[21:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[21]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[20]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[19]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[18]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[17]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[16]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[15]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[14]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[13]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[12]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[11]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[10]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[9]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[8]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[7]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[6]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[5]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[4]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[3]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_rd_cnt_reg2[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/o_txcork</Signal>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/i_txpop</Signal>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[11:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[11]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[10]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[9]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[8]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[7]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[6]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[5]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[4]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[3]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/burst_num[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/send_end_en</Signal>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/o_param_send_end</Signal>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[16:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[16]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[15]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[14]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[13]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[12]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[11]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[10]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[9]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[8]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[7]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[6]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[5]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[4]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[3]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_packet_cnt[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_en</Signal>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/txpktfin_en</Signal>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_cnt[2:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_cnt[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_cnt[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_cnt[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[7:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[7]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[6]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[5]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[4]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[3]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/i_update_type[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_en</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Bus restorename="usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_cnt[2:0]">
+                        <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_cnt[2]</Signal>
+                        <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_cnt[1]</Signal>
+                        <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_zlp_packet_cnt[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/send_end_en</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="000" value1="000" trigger="1"/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="2"/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="3"/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0000" value1="0000" trigger="4"/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0&amp;M1</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0101101110100101</GAO_ID>
+</GAO_CONFIG>

@@ -1,0 +1,285 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_display" trig_type="0" storage_depth="256" window_num="1" capture_amount="256" implementation="0" trigger_pos="128" module_name="top" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Bus capture_enable="true" name="mcu_ctrl_sel[3:0]">
+                <Signal>mcu_ctrl_sel[3]</Signal>
+                <Signal>mcu_ctrl_sel[2]</Signal>
+                <Signal>mcu_ctrl_sel[1]</Signal>
+                <Signal>mcu_ctrl_sel[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">mcu_en</Signal>
+            <Signal capture_enable="true">mcu_option</Signal>
+            <Bus capture_enable="true" name="flash_update_data[15:0]">
+                <Signal>flash_update_data[15]</Signal>
+                <Signal>flash_update_data[14]</Signal>
+                <Signal>flash_update_data[13]</Signal>
+                <Signal>flash_update_data[12]</Signal>
+                <Signal>flash_update_data[11]</Signal>
+                <Signal>flash_update_data[10]</Signal>
+                <Signal>flash_update_data[9]</Signal>
+                <Signal>flash_update_data[8]</Signal>
+                <Signal>flash_update_data[7]</Signal>
+                <Signal>flash_update_data[6]</Signal>
+                <Signal>flash_update_data[5]</Signal>
+                <Signal>flash_update_data[4]</Signal>
+                <Signal>flash_update_data[3]</Signal>
+                <Signal>flash_update_data[2]</Signal>
+                <Signal>flash_update_data[1]</Signal>
+                <Signal>flash_update_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">flash_update_data_req</Signal>
+            <Signal capture_enable="true">flash_update_data_vld</Signal>
+            <Signal capture_enable="true">flash_update_en</Signal>
+            <Bus capture_enable="true" name="sdram_wr_tunnel_mux_inst/mem_data[15:0]">
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[15]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[14]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[13]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[12]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[11]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[10]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[9]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[8]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[7]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[6]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[5]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[4]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[3]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[2]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[1]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/mem_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">sdram_wr_tunnel_mux_inst/mem_vld</Signal>
+            <Bus capture_enable="true" name="update_type[7:0]">
+                <Signal>update_type[7]</Signal>
+                <Signal>update_type[6]</Signal>
+                <Signal>update_type[5]</Signal>
+                <Signal>update_type[4]</Signal>
+                <Signal>update_type[3]</Signal>
+                <Signal>update_type[2]</Signal>
+                <Signal>update_type[1]</Signal>
+                <Signal>update_type[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">ddr2flash_status_ff0_ndge</Signal>
+            <Signal capture_enable="true">sdram_rd_tunnel_mux_inst/o_mem_rd3_start</Signal>
+            <Signal capture_enable="true">mem_wr2_start</Signal>
+            <Bus capture_enable="true" name="sdram_wr_tunnel_mux_inst/data_o_cnt[21:0]">
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[21]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[20]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[19]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[18]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[17]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[16]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[15]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[14]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[13]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[12]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[11]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[10]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[9]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[8]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[7]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[6]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[5]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[4]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[3]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[2]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[1]</Signal>
+                <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="mem_rd3_addrs[20:0]">
+                <Signal>mem_rd3_addrs[20]</Signal>
+                <Signal>mem_rd3_addrs[19]</Signal>
+                <Signal>mem_rd3_addrs[18]</Signal>
+                <Signal>mem_rd3_addrs[17]</Signal>
+                <Signal>mem_rd3_addrs[16]</Signal>
+                <Signal>mem_rd3_addrs[15]</Signal>
+                <Signal>mem_rd3_addrs[14]</Signal>
+                <Signal>mem_rd3_addrs[13]</Signal>
+                <Signal>mem_rd3_addrs[12]</Signal>
+                <Signal>mem_rd3_addrs[11]</Signal>
+                <Signal>mem_rd3_addrs[10]</Signal>
+                <Signal>mem_rd3_addrs[9]</Signal>
+                <Signal>mem_rd3_addrs[8]</Signal>
+                <Signal>mem_rd3_addrs[7]</Signal>
+                <Signal>mem_rd3_addrs[6]</Signal>
+                <Signal>mem_rd3_addrs[5]</Signal>
+                <Signal>mem_rd3_addrs[4]</Signal>
+                <Signal>mem_rd3_addrs[3]</Signal>
+                <Signal>mem_rd3_addrs[2]</Signal>
+                <Signal>mem_rd3_addrs[1]</Signal>
+                <Signal>mem_rd3_addrs[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="usb_top_inst/usb_cmd_parsing_inst/i[21:0]">
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[21]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[20]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[19]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[18]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[17]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[16]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[15]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[14]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[13]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[12]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[11]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[10]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[9]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[8]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[7]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[6]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[5]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[4]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[3]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[2]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[1]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/i[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="usb_top_inst/usb_cmd_parsing_inst/pack_cnt[21:0]">
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[21]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[20]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[19]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[18]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[17]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[16]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[15]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[14]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[13]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[12]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[11]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[10]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[9]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[8]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[7]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[6]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[5]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[4]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[3]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[2]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[1]</Signal>
+                <Signal>usb_top_inst/usb_cmd_parsing_inst/pack_cnt[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>mem_wr2_start</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Bus restorename="flash_top_inst/lens_cnt[31:0]">
+                        <Signal>flash_top_inst/lens_cnt[31]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[30]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[29]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[28]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[27]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[26]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[25]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[24]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[23]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[22]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[21]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[20]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[19]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[18]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[17]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[16]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[15]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[14]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[13]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[12]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[11]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[10]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[9]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[8]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[7]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[6]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[5]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[4]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[3]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[2]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[1]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Bus restorename="sdram_wr_tunnel_mux_inst/data_o_cnt[21:0]">
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[21]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[20]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[19]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[18]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[17]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[16]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[15]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[14]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[13]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[12]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[11]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[10]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[9]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[8]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[7]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[6]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[5]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[4]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[3]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[2]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[1]</Signal>
+                        <Signal>sdram_wr_tunnel_mux_inst/data_o_cnt[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3">
+                <SignalList>
+                    <Signal>sdram_rd_tunnel_mux_inst/o_mem_rd3_start</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="4">
+                <SignalList>
+                    <Signal>ddr2flash_status_ff0_ndge</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="5">
+                <SignalList>
+                    <Signal>flash_update_en</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="00000000000000000000000000000000" value1="00000000000000000000000000000000" trigger="1"/>
+            <MatchUnit index="2" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0000000000000000000000" value1="0000000000000000000000" trigger="2"/>
+            <MatchUnit index="3" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="3"/>
+            <MatchUnit index="4" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="4"/>
+            <MatchUnit index="5" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="5"/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0&amp;M1&amp;M2&amp;M3&amp;M4&amp;M5</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0001011010111010</GAO_ID>
+</GAO_CONFIG>

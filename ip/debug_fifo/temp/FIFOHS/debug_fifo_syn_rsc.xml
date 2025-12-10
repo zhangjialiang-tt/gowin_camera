@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="debug_fifo" Register="54" Alu="10" Lut="84" Bsram="1" Ssram="3" T_Register="54(54)" T_Alu="10(10)" T_Lut="84(84)" T_Bsram="1(1)" T_Ssram="3(3)"/>

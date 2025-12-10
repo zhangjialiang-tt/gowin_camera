@@ -1,0 +1,276 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_display" trig_type="0" storage_depth="64" window_num="1" capture_amount="64" implementation="0" trigger_pos="32" module_name="top" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Bus capture_enable="true" name="flash_top_inst/lens_cnt_reg0[31:0]">
+                <Signal>flash_top_inst/lens_cnt_reg0[31]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[30]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[29]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[28]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[27]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[26]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[25]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[24]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[23]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[22]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[21]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[20]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[19]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[18]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[17]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[16]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[15]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[14]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[13]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[12]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[11]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[10]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[9]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[8]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[7]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[6]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[5]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[4]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[3]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[2]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[1]</Signal>
+                <Signal>flash_top_inst/lens_cnt_reg0[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="flash_top_inst/i_mcu_flash_addrs[31:0]">
+                <Signal>flash_top_inst/i_mcu_flash_addrs[31]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[30]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[29]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[28]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[27]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[26]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[25]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[24]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[23]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[22]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[21]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[20]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[19]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[18]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[17]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[16]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[15]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[14]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[13]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[12]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[11]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[10]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[9]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[8]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[7]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[6]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[5]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[4]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[3]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[2]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[1]</Signal>
+                <Signal>flash_top_inst/i_mcu_flash_addrs[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="flash_top_inst/i_mcu_ddr_addrs[31:0]">
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[31]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[30]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[29]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[28]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[27]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[26]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[25]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[24]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[23]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[22]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[21]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[20]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[19]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[18]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[17]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[16]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[15]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[14]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[13]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[12]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[11]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[10]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[9]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[8]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[7]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[6]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[5]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[4]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[3]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[2]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[1]</Signal>
+                <Signal>flash_top_inst/i_mcu_ddr_addrs[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">flash_top_inst/i_mcu_option</Signal>
+            <Bus capture_enable="true" name="flash_top_inst/i_mcu_lens[31:0]">
+                <Signal>flash_top_inst/i_mcu_lens[31]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[30]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[29]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[28]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[27]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[26]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[25]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[24]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[23]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[22]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[21]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[20]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[19]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[18]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[17]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[16]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[15]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[14]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[13]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[12]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[11]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[10]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[9]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[8]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[7]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[6]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[5]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[4]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[3]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[2]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[1]</Signal>
+                <Signal>flash_top_inst/i_mcu_lens[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="flash_top_inst/i_mcu_ctrl_sel[3:0]">
+                <Signal>flash_top_inst/i_mcu_ctrl_sel[3]</Signal>
+                <Signal>flash_top_inst/i_mcu_ctrl_sel[2]</Signal>
+                <Signal>flash_top_inst/i_mcu_ctrl_sel[1]</Signal>
+                <Signal>flash_top_inst/i_mcu_ctrl_sel[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="flash_top_inst/flash_rd_data[15:0]">
+                <Signal>flash_top_inst/flash_rd_data[15]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[14]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[13]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[12]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[11]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[10]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[9]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[8]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[7]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[6]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[5]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[4]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[3]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[2]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[1]</Signal>
+                <Signal>flash_top_inst/flash_rd_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">flash_top_inst/flash_rd_data_vld</Signal>
+            <Signal capture_enable="true">flash_update_en</Signal>
+            <Bus capture_enable="true" name="usb_top_inst/usb_tx_ctrl_v10_inst/state_c[3:0]">
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/state_c[3]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/state_c[2]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/state_c[1]</Signal>
+                <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/state_c[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">flash_rd_en</Signal>
+            <Signal capture_enable="true">usb_top_inst/usb_tx_ctrl_v10_inst/param_load_en_reg0</Signal>
+            <Signal capture_enable="true">flash_top_inst/o_flash2ddr</Signal>
+            <Signal capture_enable="true">temp_rd_flash_ctrl_en</Signal>
+            <Signal capture_enable="true">flash_top_inst/o_busy</Signal>
+            <Bus capture_enable="true" name="temperature_ddr_ctrl_inst/next_state[3:0]">
+                <Signal>temperature_ddr_ctrl_inst/next_state[3]</Signal>
+                <Signal>temperature_ddr_ctrl_inst/next_state[2]</Signal>
+                <Signal>temperature_ddr_ctrl_inst/next_state[1]</Signal>
+                <Signal>temperature_ddr_ctrl_inst/next_state[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">temperature_ddr_ctrl_inst/read_low_en</Signal>
+            <Signal capture_enable="true">temperature_ddr_ctrl_inst/send_done_pulse</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>flash_top_inst/i_mcu_en</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Bus restorename="flash_top_inst/lens_cnt[31:0]">
+                        <Signal>flash_top_inst/lens_cnt[31]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[30]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[29]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[28]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[27]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[26]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[25]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[24]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[23]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[22]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[21]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[20]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[19]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[18]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[17]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[16]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[15]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[14]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[13]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[12]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[11]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[10]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[9]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[8]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[7]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[6]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[5]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[4]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[3]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[2]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[1]</Signal>
+                        <Signal>flash_top_inst/lens_cnt[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Signal>usb_top_inst/usb_tx_ctrl_v10_inst/param_load_en_ndge</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="00000000000000000000000000000000" value1="00000000000000000000000000000000" trigger="1"/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0&amp;M1</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0101001011110110</GAO_ID>
+</GAO_CONFIG>

@@ -1,0 +1,12 @@
+[General]
+ipc_version=4
+file=clkdiv2
+module=clkdiv2
+target_device=gw2anr18c-001
+type=clock_clkdiv
+version=1.0
+
+[Config]
+Calibration=false
+Division_Factor=2
+Language=0

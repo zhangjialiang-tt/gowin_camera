@@ -1,0 +1,1 @@
+`define module_name SPI_Nor_Flash_Interface_Top

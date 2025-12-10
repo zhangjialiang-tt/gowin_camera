@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="flash_fifo" Register="99" Alu="32" Lut="133" Bsram="1" Ssram="6" T_Register="99(99)" T_Alu="32(32)" T_Lut="133(133)" T_Bsram="1(1)" T_Ssram="6(6)"/>

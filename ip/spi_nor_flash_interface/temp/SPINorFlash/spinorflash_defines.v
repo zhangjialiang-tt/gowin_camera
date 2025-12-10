@@ -1,0 +1,4 @@
+`define STANDARD_MODE
+`define SCLKDIV_DEFAULT 8'hff
+`define TXFIFO_DEPTH_64W
+`define RXFIFO_DEPTH_64W

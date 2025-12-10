@@ -1,0 +1,27 @@
+//SDRAM 地址分配   
+   
+   #define  DSRAM_B_ADDRS       0x00000000
+   #define  DSRAM_BH_ADDRS      0x00006000
+   #define  DSRAM_BL_ADDRS      0x0000C000
+   #define  DSRAM_KL_ADDRS0     0x00012000
+   #define  DSRAM_KL_ADDRS1     0x00018000
+   #define  DSRAM_KL_ADDRS2     0x0001E000
+   #define  DSRAM_KL_ADDRS3     0x00024000
+   #define  DSRAM_KL_ADDRS4     0x0002A000
+   #define  DSRAM_KL_ADDRS5     0x00030000
+   #define  DSRAM_KL_ADDRS6     0x00036000
+   #define  DSRAM_KH_ADDRS0     0x0003C000
+   #define  DSRAM_KH_ADDRS1     0x00042000
+   #define  DSRAM_KH_ADDRS2     0x00048000
+   #define  DSRAM_KH_ADDRS3     0x0004E000
+   #define  DSRAM_KH_ADDRS4     0x00054000
+   #define  DSRAM_KH_ADDRS5     0x0005A000
+   #define  DSRAM_KH_ADDRS6     0x00060000
+   #define  DSRAM_IR_ADDRS0     0x00066000
+   #define  DSRAM_IR_ADDRS1     0x0006C000
+   #define  DSRAM_IR_ADDRS2     0x00072000
+   #define  DSRAM_TV_ADDRS0     0x00078000
+   #define  DSRAM_TV_ADDRS1     0x000B2980
+   #define  DSRAM_TV_ADDRS2     0x000ED300
+   #define  DSRAM_USB_PARAM     0x00006000
+   

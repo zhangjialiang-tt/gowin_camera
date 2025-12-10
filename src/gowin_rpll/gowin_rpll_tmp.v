@@ -1,0 +1,19 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved.
+//File Title: Template file for instantiation
+//Tool Version: V1.9.9 (64-bit)
+//Part Number: GW2ANR-LV18QN88C8/I7
+//Device: GW2ANR-18
+//Device Version: C
+//Created Time: Wed May 28 15:32:03 2025
+
+//Change the instance name and port connections to the signal names
+//--------Copy here to design--------
+
+    Gowin_rPLL your_instance_name(
+        .clkout(clkout_o), //output clkout
+        .clkoutd3(clkoutd3_o), //output clkoutd3
+        .clkin(clkin_i) //input clkin
+    );
+
+//--------Copy end-------------------

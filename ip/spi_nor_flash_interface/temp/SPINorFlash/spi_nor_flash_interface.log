@@ -1,0 +1,55 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v'
+Analyzing included file 'top_define.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":24)
+Back to file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":24)
+Analyzing included file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\static_macro_define.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":25)
+Back to file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":25)
+Analyzing included file 'spinorflash_defines.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":26)
+Back to file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":26)
+Analyzing included file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash_const_defines.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":27)
+Back to file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":27)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp'
+Analyzing included file 'top_define.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+Back to file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+Analyzing included file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\static_macro_define.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+Back to file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+Analyzing included file 'spinorflash_defines.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+Back to file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+Analyzing included file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash_const_defines.v'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+Back to file 'C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+WARN  (EX3073) : Port 'spi_boot_intr' remains unconnected for this instance("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":112)
+Compiling module 'SPI_Nor_Flash_Interface_Top'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":29)
+Compiling module '**'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+Extracting RAM for identifier '**'("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+WARN  (EX2420) : Latch inferred for net '**'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+WARN  (EX1998) : Net 'spi_mosi_in' does not have a driver("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":68)
+WARN  (EX2565) : Input 'spi_rx_dma_ack' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":112)
+WARN  (EX2565) : Input 'spi_tx_dma_ack' on this instance is undriven. Assigning to 0, simulation mismatch possible. Please assign the input or remove the declaration("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":112)
+NOTE  (EX0101) : Current top module is "SPI_Nor_Flash_Interface_Top"
+[5%] Running netlist conversion ...
+WARN  (CV0020) : Input I_haddr_reg[31:7] is unused("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":33)
+WARN  (CV0020) : Input I_haddr_reg[1:0] is unused("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spi_nor_flash_interface_top.v":33)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+WARN  (DI0003) : Latch inferred for net 'latch_out';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+WARN  (DI0003) : Latch inferred for net 'latch_out';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "~spinorflash_regif_ctrl.SPI_Nor_Flash_Interface_Top" instantiated to "u_spi_regif_ctrl" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+WARN  (NL0002) : The module "~nds_sync_l2l.SPI_Nor_Flash_Interface_Top" instantiated to "mem_intf_idle_clr_sync" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.03_x64\IDE\ipcore\SPINorFlash\data\spinorflash.vp":2866)
+[95%] Generate netlist file "E:\project\boshi\prj\prj\GW_PHONE_FPGA02_8_23a_7\GW_PHONE_FPGA\ip\spi_nor_flash_interface\temp\SPINorFlash\spi_nor_flash_interface.vg" completed
+Generate template file "E:\project\boshi\prj\prj\GW_PHONE_FPGA02_8_23a_7\GW_PHONE_FPGA\ip\spi_nor_flash_interface\temp\SPINorFlash\spi_nor_flash_interface_tmp.v" completed
+[100%] Generate report file "E:\project\boshi\prj\prj\GW_PHONE_FPGA02_8_23a_7\GW_PHONE_FPGA\ip\spi_nor_flash_interface\temp\SPINorFlash\spi_nor_flash_interface_syn.rpt.html" completed
+GowinSynthesis finish

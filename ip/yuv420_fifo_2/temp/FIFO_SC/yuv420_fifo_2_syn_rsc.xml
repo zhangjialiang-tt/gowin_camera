@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="yuv420_fifo_2" Register="35" Alu="22" Lut="43" Bsram="1" T_Register="35(35)" T_Alu="22(22)" T_Lut="43(43)" T_Bsram="1(1)"/>
